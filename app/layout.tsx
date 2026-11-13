@@ -48,8 +48,6 @@ const jsonLd = {
   telephone: "+55-19-3608-4828",
   email: clinic.email,
   medicalSpecialty: "Dermatology",
-  priceRange: "Atendimento particular",
-  paymentAccepted: "Particular",
   address: {
     "@type": "PostalAddress",
     streetAddress: clinic.street,

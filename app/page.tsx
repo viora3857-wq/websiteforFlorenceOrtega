@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowRight, CalendarCheck, Clock, Mail, MapPin, Phone, ShieldCheck } from "lucide-react";
+import { ArrowRight, CalendarCheck, Clock, Mail, MapPin, Phone } from "lucide-react";
 import { Header } from "@/components/site/header";
 import { Treatments } from "@/components/site/treatments";
 import { InstagramIcon, WhatsAppIcon } from "@/components/site/brand-icons";
@@ -184,14 +184,7 @@ export default function Home() {
         <section aria-labelledby="atendimento-titulo" className="border-b border-line">
           <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
             <h2 id="atendimento-titulo" className="sr-only">Informações de atendimento</h2>
-            <ul className="grid gap-8 sm:grid-cols-3 sm:gap-10">
-              <li className="flex gap-4">
-                <ShieldCheck className="mt-0.5 h-6 w-6 shrink-0 text-gold" strokeWidth={1.4} />
-                <div>
-                  <p className="font-serif text-xl">Atendimento exclusivamente particular</p>
-                  <p className="mt-1 text-sm leading-relaxed text-muted">Não atendemos convênios ou planos de saúde.</p>
-                </div>
-              </li>
+            <ul className="grid gap-8 sm:grid-cols-2 sm:gap-10 lg:max-w-4xl">
               <li className="flex gap-4">
                 <CalendarCheck className="mt-0.5 h-6 w-6 shrink-0 text-gold" strokeWidth={1.4} />
                 <div>
