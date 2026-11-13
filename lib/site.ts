@@ -1,5 +1,5 @@
 // Dados centrais do consultório. Edite aqui e o site inteiro atualiza.
-export const SITE_URL = "https://www.clinderm.com.br"; // TODO: confirmar domínio definitivo
+export const SITE_URL = "https://websitefor-florence-ortega.vercel.app"; // trocar quando houver domínio .com.br
 
 export const doctor = {
   name: "Dra. Florence Marin Ortega",
