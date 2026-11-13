@@ -195,7 +195,7 @@ export default function Home() {
               <li className="flex gap-4">
                 <Clock className="mt-0.5 h-6 w-6 shrink-0 text-gold" strokeWidth={1.4} />
                 <div>
-                  <p className="font-serif text-xl">Segunda a quarta-feira</p>
+                  <p className="font-serif text-xl">Segunda a quinta-feira</p>
                   <p className="mt-1 text-sm leading-relaxed text-muted">Fechado de sexta a domingo.</p>
                 </div>
               </li>

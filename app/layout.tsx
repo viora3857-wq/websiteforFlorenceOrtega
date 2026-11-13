@@ -59,7 +59,7 @@ const jsonLd = {
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday"],
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday"],
     },
   ],
   areaServed: { "@type": "City", name: clinic.city },
