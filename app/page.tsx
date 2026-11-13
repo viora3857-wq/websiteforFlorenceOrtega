@@ -97,14 +97,21 @@ export default function Home() {
         {/* SOBRE */}
         <section id="sobre" className="bg-surface">
           <div className="mx-auto grid max-w-6xl gap-12 px-4 py-20 sm:px-6 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20 lg:py-28">
-            {/* TODO: substituir pelo retrato profissional da Dra. Florence */}
-            <div className="flex aspect-[5/3] items-end rounded-3xl sm:aspect-[4/5] border border-line bg-white p-8">
-              <div>
-                <p className="font-serif text-7xl font-medium leading-none text-sand">FMO</p>
-                <p className="mt-6 font-serif text-2xl">{doctor.name}</p>
-                <p className="mt-1 text-sm text-muted">Médica Dermatologista</p>
+            <figure className="mx-auto w-full max-w-sm lg:max-w-none">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-3xl bg-sand">
+                <Image
+                  src="/dra-florence.png"
+                  alt="Dra. Florence Marin Ortega, médica dermatologista"
+                  fill
+                  sizes="(min-width: 1024px) 35vw, 384px"
+                  className="object-cover object-top"
+                />
               </div>
-            </div>
+              <figcaption className="mt-4">
+                <p className="font-serif text-xl">{doctor.name}</p>
+                <p className="text-sm text-muted">Médica Dermatologista · {doctor.crm}</p>
+              </figcaption>
+            </figure>
 
             <div className="self-center">
               <Eyebrow>Sobre a médica</Eyebrow>

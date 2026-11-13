@@ -20,7 +20,7 @@ export const clinic = {
   whatsapp: "(19) 99405-2577",
   whatsappE164: "+5519994052577",
   email: "clin_dermsjrp@hotmail.com",
-  instagram: "https://www.instagram.com/", // TODO: inserir o @ oficial da Dra. Florence
+  instagram: "https://www.instagram.com/florence.ortegaa/",
 };
 
 export const whatsappHref = `https://wa.me/5519994052577?text=${encodeURIComponent(
