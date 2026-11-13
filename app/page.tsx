@@ -100,7 +100,7 @@ export default function Home() {
             <figure className="mx-auto w-full max-w-sm lg:max-w-none">
               <div className="relative aspect-[4/5] overflow-hidden rounded-3xl bg-sand">
                 <Image
-                  src="/dra-florence.png"
+                  src="/dra-florence.webp"
                   alt="Dra. Florence Marin Ortega, médica dermatologista"
                   fill
                   sizes="(min-width: 1024px) 35vw, 384px"
