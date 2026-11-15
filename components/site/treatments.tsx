@@ -1,7 +1,7 @@
 "use client";
 
 import {
-  Droplet, Sun, Activity, ScanFace, Sparkles, Syringe, Waves, Scissors, Fingerprint, Microscope,
+  Droplet, Sun, Activity, ScanFace, Sparkles, Syringe, Waves, Scissors, Fingerprint, Microscope, Zap, Dna, Layers, GlassWater,
 } from "lucide-react";
 import type { ReactNode } from "react";
 import { Tabs, TabList, Tab, TabPanel } from "@/components/ui/tabs";
@@ -32,6 +32,10 @@ const groups: { value: string; label: string; intro: string; items: Item[] }[] =
       { title: "Toxina Botulínica", description: "Suavização de linhas de expressão com aplicação precisa, preservando a naturalidade.", icon: <Syringe className={ic} strokeWidth={1.5} /> },
       { title: "Preenchimentos Faciais", description: "Reposição de volume e contorno facial com planejamento individual.", icon: <Sparkles className={ic} strokeWidth={1.5} /> },
       { title: "IPCA", description: "Indução Percutânea de Colágeno com Agulhas para textura, cicatrizes e qualidade da pele.", icon: <Waves className={ic} strokeWidth={1.5} /> },
+      { title: "Laser de CO2", description: "Tecnologia a laser para renovação da pele, com indicação e parâmetros definidos em consulta.", icon: <Zap className={ic} strokeWidth={1.5} /> },
+      { title: "PDRN", description: "Regeneração celular para estimular a recuperação e a qualidade da pele.", icon: <Dna className={ic} strokeWidth={1.5} /> },
+      { title: "HA3 Elastygen", description: "Bioregenerador de elastina, colágeno, fibroblastos e adipócitos.", icon: <Layers className={ic} strokeWidth={1.5} /> },
+      { title: "Skinvive", description: "Hidratação intradérmica para uma pele mais viçosa e hidratada.", icon: <GlassWater className={ic} strokeWidth={1.5} /> },
     ],
   },
   {
