@@ -45,7 +45,7 @@ export function Header() {
           href={whatsappHref}
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden rounded-full bg-foreground px-5 py-2.5 text-[13px] font-medium text-white transition-colors hover:bg-sage lg:inline-flex"
+          className="hidden rounded-full bg-sage px-5 py-2.5 text-[13px] font-medium text-white transition-colors hover:bg-[#2f3b33] lg:inline-flex"
         >
           Agendar consulta
         </a>
@@ -77,7 +77,7 @@ export function Header() {
             href={whatsappHref}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-8 flex w-full items-center justify-center rounded-full bg-foreground px-6 py-4 text-sm font-medium text-white"
+            className="mt-8 flex w-full items-center justify-center rounded-full bg-sage px-6 py-4 text-sm font-medium text-white"
           >
             Agendar consulta pelo WhatsApp
           </a>

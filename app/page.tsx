@@ -26,7 +26,7 @@ function WhatsAppButton({ label = "Agendar Consulta pelo WhatsApp", variant = "d
       rel="noopener noreferrer"
       className={
         variant === "dark"
-          ? "inline-flex items-center justify-center gap-2.5 rounded-full bg-foreground px-7 py-4 text-sm font-medium text-white transition-colors hover:bg-sage"
+          ? "inline-flex items-center justify-center gap-2.5 rounded-full bg-sage px-7 py-4 text-sm font-medium text-white transition-colors hover:bg-[#2f3b33]"
           : "inline-flex items-center justify-center gap-2.5 rounded-full bg-white px-7 py-4 text-sm font-medium text-foreground transition-colors hover:bg-sand"
       }
     >
@@ -218,7 +218,7 @@ export default function Home() {
                   </span>
                 </a>
                 <a href={whatsappHref} target="_blank" rel="noopener noreferrer" className="flex gap-4 hover:underline">
-                  <WhatsAppIcon className="h-5 w-5 shrink-0" /> WhatsApp {clinic.whatsapp}
+                  <WhatsAppIcon className="h-5 w-5 shrink-0 text-sage" /> WhatsApp {clinic.whatsapp}
                 </a>
                 <a href={clinic.phoneHref} className="flex gap-4 hover:underline">
                   <Phone className="h-5 w-5 shrink-0" strokeWidth={1.5} /> {clinic.phone}
@@ -290,7 +290,7 @@ export default function Home() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Agendar consulta pelo WhatsApp"
-        className="fixed bottom-5 right-5 z-30 inline-flex h-14 w-14 items-center justify-center rounded-full bg-foreground text-white shadow-[0_10px_30px_-10px_rgba(0,0,0,0.45)] transition-transform hover:scale-105 sm:bottom-7 sm:right-7"
+        className="fixed bottom-5 right-5 z-30 inline-flex h-14 w-14 items-center justify-center rounded-full bg-sage text-white shadow-[0_10px_30px_-10px_rgba(0,0,0,0.45)] transition-transform hover:scale-105 hover:bg-[#2f3b33] sm:bottom-7 sm:right-7"
       >
         <WhatsAppIcon className="h-6 w-6" />
       </a>
